@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#nvr {
+  display:flex;
+  
+  background-color: #0430b3;
+}
+#nvr i{
+  color: white;
+  
+}
+#nvr a{
+  color: white;
+  
+}
+
+.imagen{
+  padding-top: 20px;
+  width: 100%;
+  height:40%;
+  
+}
+.imagen img{
+  width: 100%;
+}
+#search-addon{
+  background-color:#03A8A1;
+}
+#registrarse{
+  background-color:#048CB3;
+  border-radius: 10px;
+}
+.nvr2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #05539c !important;
+  border-radius: 20px;
+}
+.nvr2 ul li a {
+  color: white;
+}
